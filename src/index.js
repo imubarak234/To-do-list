@@ -42,7 +42,7 @@ class List {
     this.Lists.splice(index, 1);
   }
 
-  print() {
+  printing() {
     const ans = [];
     for (let x = 0; x < this.Lists.length; x += 1) {
       ans.push(this.Lists[x]);
