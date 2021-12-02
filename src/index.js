@@ -85,7 +85,7 @@ const sort = (arr) => {
   return next;
 };
 
-const addListToPage = () => {
+const addListToPages = () => {
   const sorted = sort(to_Do_List.Lists);
   for (let x = 0; x < sorted.length; x += 1) {
     const container = document.createElement('div');
@@ -110,7 +110,7 @@ const addListToPage = () => {
   }
 };
 
-addListToPage();
+addListToPages();
 
 const button = document.createElement('button');
 section.append(button);
